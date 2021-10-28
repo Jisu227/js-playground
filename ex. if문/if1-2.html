@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>if 예제 1 - 2</h2>
+    <p>대문자 소문자 판별 프로그램</p>    
+</body>
+<script>
+    const input = prompt('문장을 입력해주세요.');
+    const upper = input.toUpperCase();
+    const lower = input.toLowerCase();
+
+    if(input === upper) {
+        console.log('대문자 문장입니다.');
+    } else if(input === lower) {
+        console.log('소문자 문장입니다.');
+    }
+</script>
+</html>
