@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>반복문 예제 1 - 1</h2>
+    <p>입력한 수들의 갯수와 합을 구하는 프로그램</p>
+</body>
+    <script>
+       const input = [];
+       const number = -1;
+       while(number !== 0) {
+            number = Number(prompt('숫자를 입력해주세요'));
+            input.push(number);
+       }
+       const length = input.length;
+       const sum = input.reduce((a,b)=> a+b,0);
+       console.log('입력한 수의 갯수는 '+length+' 입니다.'+ '그리고 갯수의 합은'+sum+'입니다.');
+
+    </script>
+</html>
